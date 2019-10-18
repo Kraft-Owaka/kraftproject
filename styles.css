@@ -1,0 +1,20 @@
+body {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-image: url("https://bit.ly/35JxbPt");
+
+}
+ul{
+    display:flex;
+    list-style-type: none;
+    
+}
+li {
+    text-decoration: none;
+    width: 10%;
+    list-style-type: none;
+    font-size: 20px;
+}
