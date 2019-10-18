@@ -11,10 +11,41 @@ ul{
     display:flex;
     list-style-type: none;
     
+    
 }
 li {
     text-decoration: none;
     width: 10%;
     list-style-type: none;
     font-size: 20px;
+    width: 20%;
+    
+}
+ul li{
+    text-decoration: none;
+    background-color:grey;
+    color: white;
+    
+
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    width: 30%;
+    border-radius: 30%;
+}
+ul li a:hover{
+    background-color: black;
+    color:orange;
+}
+#home img{
+    border-radius: 100px;
+    margin-left: 40%;
+}
+h1{
+    text-align: center ;
+    color: white;
+    font-size: 40px;
 }
