@@ -46,6 +46,15 @@ ul li a:hover{
     filter: grayscale(100%);
     transition:0.4s all;
 }
+.border{
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 3px;
+    background-color: #3498db;
+    margin-bottom: 40px;
+    
+}
 #home hover >img { filter: none;
 }
 h1{
