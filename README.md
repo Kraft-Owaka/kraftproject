@@ -6,10 +6,9 @@
 ## Setup instractions
 Click on the link above
 ### Supprt and contact details
-
-
+* { in case os an issue contact e-mail: owakakraft@gmail.com}
 ## License
-* { in case os an issue contact e-mail: owakakraft@gmail.com}* MIT License
+* MIT License
 Copyright (c) [2019] [KRAFT OWAKA]
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

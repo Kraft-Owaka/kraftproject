@@ -82,4 +82,7 @@ p {
     color: rgb(255, 221, 71);
     font-size: 20px;
 }
+ol {
+    text-align: center;    
+}
 
