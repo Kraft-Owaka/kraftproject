@@ -7,6 +7,12 @@ body {
     background-image: url("https://bit.ly/35JxbPt");
 
 }
+.p1{
+    margin: 20px;
+    padding: 20px;
+    border-block-width: 5px;
+
+}
 ul{
     display:flex;
     list-style-type: none;
