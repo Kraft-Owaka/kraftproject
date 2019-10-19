@@ -8,6 +8,7 @@ Click on the link above
 ### Supprt and contact details
 
 
+## License
 * { in case os an issue contact e-mail: owakakraft@gmail.com}* MIT License
 Copyright (c) [2019] [KRAFT OWAKA]
 Permission is hereby granted, free of charge, to any person obtaining a copy
