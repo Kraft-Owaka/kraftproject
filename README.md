@@ -2,11 +2,11 @@
 ### This is a student Programming Portfolio submited on 18/10/2018
 ### By Kraft Owaka and Trevor Ngugi
 ### Live Demo
-* { this is a working demo https://github.com/Kraft-Owaka/kraftproject}
+* { this is a working demo https://github.com/Kraft-Owaka/kraftproject }
 ## Setup instractions
 Click on the link above
 ### Supprt and contact details
-* { in case os an issue contact e-mail: owakakraft@gmail.com}
+* { in case os an issue contact e-mail: owakakraft@gmail.com }
 ## License
 * MIT License
 Copyright (c) [2019] [KRAFT OWAKA]
