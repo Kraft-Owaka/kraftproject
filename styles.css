@@ -4,8 +4,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 50vh;
-    background-image: url("https://bit.ly/35JxbPt");
-
 }
 .p1{
     margin: 20px;
@@ -92,5 +90,13 @@ ol {
         margin-right: 0;
         padding-left: 40px;
         color: blanchedalmond;
+        text-align: center;
+}
+@media screen and (min-width: 480px) {
+    body {
+        background-image: url("https://bit.ly/35JxbPt");
+        background-color: black;
+        color: white;
+    }
 }
 
