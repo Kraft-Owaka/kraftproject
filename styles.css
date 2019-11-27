@@ -5,6 +5,21 @@ body {
     background-size: cover;
     height: 50vh;
 }
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1.5)),url(../week-1/images/code.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+/*main_nav*/
+.main_nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main_nav li{
+    display: inline-block;
+}
 .p1{
     margin: 20px;
     padding: 20px;
@@ -47,12 +62,24 @@ ul li a:hover{
 ol {
     text-align: center;
 }
+
+.logo{
+    width: 300px;
+    height: 300px;
+    float: left;
+    border-radius: 100%;
+    filter: grayscale(100%);
+    
+    
+}
 #home img{
     border-radius: 100%;
     margin-left: 40%;
     filter: grayscale(100%);
-    transition:0.4s all;
+    filter: grayscale(100%);
+    margin-top: 50%;
 }
+
 p {
     text-align: center;
 }
@@ -65,7 +92,7 @@ p {
     margin-bottom: 40px;
 
 }
-#home hover >img { filter: none;
+#home hover img { filter: none;
 }
 h1{
     text-align: center ;
@@ -94,7 +121,7 @@ ol {
 }
 @media screen and (min-width: 480px) {
     body {
-        background-image: url("https://bit.ly/35JxbPt");
+        background-image: url();
         background-color: black;
         color: white;
     }
