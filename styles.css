@@ -1,3 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+li, a, button {
+    font-family:"Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:#edf0f1;
+    text-decoration: none;
+}
 body {
     background-attachment: fixed;
     background-position: center;
@@ -9,69 +22,43 @@ header{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1.5)),url(../week-1/images/code.jpeg);
     height: 100vh;
     background-size: cover;
-    background-position: center;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
 }
 /*main_nav*/
-.main_nav {
-    float: right;
+.main_nav{
     list-style: none;
-    margin-top: 30px;
 }
 .main_nav li{
     display: inline-block;
+    padding:0px 20px;
 }
+.main_nav li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color:#0088A9;
+ }
+ /*logo css*/
+.logo{
+    width: 300px;
+    height: 300px;
+    float: left;
+    border-radius: 100%;
+    filter: grayscale(100%);  
+    cursor: pointer; 
+}
+
 .p1{
     margin: 20px;
     padding: 20px;
     border-block-width: 5px;
 
 }
-ul{
-    display:flex;
-    list-style-type: none;
-    
-    
-}
-li {
-    text-decoration: none;
-    width: 10%;
-    list-style-type: none;
-    font-size: 20px;
-    width: 20%;
-    
-}
-ul li{
-    text-decoration: none;
-    background-color:grey;
-    color: white;
-    
 
-
-}
-ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-    width: 30%;
-    border-radius: 30%;
-}
-ul li a:hover{
-    background-color: black;
-    color:orange;
-}
-ol {
-    text-align: center;
-}
-
-.logo{
-    width: 300px;
-    height: 300px;
-    float: left;
-    border-radius: 100%;
-    filter: grayscale(100%);
-    
-    
-}
 #home img{
     border-radius: 100%;
     margin-left: 40%;
