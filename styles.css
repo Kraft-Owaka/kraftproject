@@ -12,6 +12,7 @@ li, a, button {
 }
 /*justify, pushes the left and right itmes to the far edges item in the middle is spaced between the two */
 header{
+    margin-top: 0px;
     background-image: linear-gradient(rgba(0,0,0,1.5),rgba(0,0,0,0.3)),url(../week-1/images/code.jpeg);
     height: 100vh;
     /*display: flex;*/
@@ -27,6 +28,7 @@ header{
     cursor: pointer; 
     width: 150px;
     height: 150px;
+    margin-right: auto;
 }
 /*main_nav*/
 .main_nav{
@@ -41,6 +43,7 @@ header{
 }
 .nav_links li a:hover{
     color:#0088A9;
+
  }
  /*rgba help on the color */
 button{
@@ -61,19 +64,32 @@ button:hover{
     filter: grayscale(100%);
     margin-top: 50%;
 }
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 14%;
+    margin-left:17%;
+}
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 767px){
     body {
-        background-image: url();
-        background-color:;
-        color:;
+        background-color: black;
+        color:white;
+    }
+    button{
+        position: center;
+    }
+    .logo{
+        display: none;
     }
 }
 @media screen and (min-width: 768px) {
     body {
     
-        background-color:;
-        color: ;
+        background-color:white;
+        color: black;
     }
 }
 
